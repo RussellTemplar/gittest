@@ -1,0 +1,5 @@
+.LOG
+08:37 06/04/2019
+My First Line
+09:12 06/04/2019
+Next line
