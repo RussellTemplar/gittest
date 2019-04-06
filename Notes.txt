@@ -1,13 +1,32 @@
 git --version
+git config --global user.email "antondp@gmail.com"
+git config --global user.name "Russell Templar"
+
 
 
 git init   -- Initialise local git repository
 git add <file>    -- Add File(s) to Index (staging area)
+git add *.txt -- add all txt files to staging
+git add . -- add all files to staging
+git rm --cached <file> -- remove file from staging
 git satus  --Status of working tree
 git commit  -- Commit Changes to Index
+git commit -m 'commit message'
 
 Remote
 git push  --Push to remote repository
 git pull   -- Pull latest from remote repository
 git clone  -- Clone repository into a new directory
 
+
+
+
+Ctrl + scroll -> Zoom
+touch test.txt --> creates file
+clear --> clear screen
+To ignore files
+touch .gitignore
+in .gitignore add -->
+tt.txt
+/folder2
+*.txt
