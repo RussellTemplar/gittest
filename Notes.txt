@@ -2,8 +2,6 @@ git --version
 git config --global user.email "antondp@gmail.com"
 git config --global user.name "Russell Templar"
 
-
-
 git init   -- Initialise local git repository
 git add <file>    -- Add File(s) to Index (staging area)
 git add *.txt -- add all txt files to staging
@@ -18,6 +16,21 @@ git push  --Push to remote repository
 git pull   -- Pull latest from remote repository
 git clone  -- Clone repository into a new directory
 
+from github
+git remot> check
+to add -->
+git remote add origin https://github.com/RussellTemplar/gittest.git
+git push -u origin master
+
+later updates only
+git push
+
+Branching
+git branch NewWork
+git checkout NewWork
+or to switch back
+git checkout master
+to merge
 
 
 
