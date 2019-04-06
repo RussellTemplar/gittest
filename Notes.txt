@@ -1,0 +1,13 @@
+git --version
+
+
+git init   -- Initialise local git repository
+git add <file>    -- Add File(s) to Index (staging area)
+git satus  --Status of working tree
+git commit  -- Commit Changes to Index
+
+Remote
+git push  --Push to remote repository
+git pull   -- Pull latest from remote repository
+git clone  -- Clone repository into a new directory
+
